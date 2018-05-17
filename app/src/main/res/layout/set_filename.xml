@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_enter_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_your_full_name"
+        android:textSize="24sp"
+        android:paddingTop="8dp"/>
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_enter_filename"
+        android:hint="@string/ivan_ivanov"
+        android:imeOptions="actionSend"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:id="@+id/button_save_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save"
+        android:width="150dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/text_recorded_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_save_filename"
+        android:layout_centerHorizontal="true"
+        android:text="@string/recorded_files"
+        android:textSize="24sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_recorded_files"
+        android:drawSelectorOnTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        >
+    </ListView>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Receiver</string>
+    <string name="select_device">Оберіть пристрій для підключення</string>
+    <string name="scan_again">Повторне сканування</string>
+    <string name="choose_filename">Обрати ім\'я файлу</string>
+    <string name="close_connection">Зупинити запис</string>
+    <string name="connecting">Підключення...</string>
+    <string name="connected_to">"Підключено до "</string>
+    <string name="disconnected">Відключено!</string>
+    <string name="connecting_again">Повторне підключення</string>
+    <string name="error">"Помилка: "</string>
+    <string name="scanning">"Пошук: "</string>
+    <string name="pairing">З\'єднання...</string>
+    <string name="scan_finished">Пошук завершено!</string>
+    <string name="paired">З\'єднано!</string>
+    <string name="turn_on_bluetooth">Включіть Bluetooth!</string>
+    <string name="pull_to_refresh_the_list">Ви повині бути пов\'язані з вашим пристроєм, щоб побачити його у списку. Потягніть, щоб оновити список.</string>
+    <string name="device_not_found">Пристрій не знайдено!</string>
+    <string name="save">Зберегти</string>
+    <string name="enter_your_full_name">Введіть ім\'я та прізвище</string>
+    <string name="recorded_files">Записані файли</string>
+    <string name="alert_message_to_delete">"Ви впевнені, що хочете видалити "</string>
+    <string name="alert_yes">Так</string>
+    <string name="alert_no">Ні</string>
+    <string name="choose_xls_viewer">Відкрити XLS за допомогою</string>
+    <string name="no_found_app_for_xls">Немає додатку для перегляду excel файлу</string>
+    <string name="share_via">Поширити</string>
+    <string name="file">"файл "</string>
+    <string name="deleted">" видалено!"</string>
+    <string name="saved">" збережено!"</string>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">Bluetooth Receiver</string>
+    <string name="select_device">Select a device to connect.</string>
+    <string name="scan_again">Scan again</string>
+    <string name="choose_filename">Choose filename</string>
+    <string name="close_connection">Stop recording</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connected_to">Connected to </string>
+    <string name="disconnected">Disconnected!</string>
+    <string name="connecting_again">Connecting again…</string>
+    <string name="error">Error: </string>
+    <string name="scanning">Scanning…</string>
+    <string name="pairing">Pairing…</string>
+    <string name="scan_finished">Scan finished!</string>
+    <string name="paired">Paired!</string>
+    <string name="turn_on_bluetooth">Turn on bluetooth</string>
+    <string name="pull_to_refresh_the_list">You must be paired with your device to see it in the list. Pull to refresh the list.</string>
+    <string name="device_not_found">Device not found!</string>
+    <string name="save">Save</string>
+    <string name="ivan_ivanov" translatable="false">Ivan Ivanov</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="example_xls" translatable="false">example.xls</string>
+    <string name="recorded_files">Recorded files</string>
+    <string name="alert_message_to_delete">Are you sure you want to delete</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="choose_xls_viewer">Open XLS with</string>
+    <string name="no_found_app_for_xls">No application avaiable to view excel file</string>
+    <string name="share_via">Share</string>
+    <string name="file">file</string>
+    <string name="deleted">" deleted!"</string>
+    <string name="saved">" saved!"</string>
+</resources>

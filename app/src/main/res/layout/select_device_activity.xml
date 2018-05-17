@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.vitaliimordak.bluetoothreceiver.MainActivity">
+
+    <TextView
+        android:id="@+id/text_select_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/select_device"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_select_device"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="@string/pull_to_refresh_the_list"
+        android:textColor="@color/background"
+        android:textSize="15sp" />
+
+    <com.vitaliimordak.bluetoothreceiver.PullToRefresh
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </com.vitaliimordak.bluetoothreceiver.PullToRefresh>
+
+    <Button
+        android:id="@+id/not_in_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pull_to_refresh"
+        android:text="@string/device_not_found" />
+</RelativeLayout>
